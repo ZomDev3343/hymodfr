@@ -9,11 +9,15 @@ import "./utils/i18n.js";
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
         <BrowserRouter>
-            <Header/>
-            <Routes>
-                <Route path={"/"} element={<LandingPage/>}></Route>
-            </Routes>
-            <Footer/>
+            <div className="flex flex-col min-h-screen">
+                <Header/>
+                <main className="flex-grow">
+                    <Routes>
+                        <Route path={"/"} element={<LandingPage/>}/>
+                    </Routes>
+                </main>
+                <Footer/>
+            </div>
         </BrowserRouter>
     </StrictMode>,
 )

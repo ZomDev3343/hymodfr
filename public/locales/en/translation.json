@@ -1,5 +1,12 @@
 {
+  "title": "Make Hytale Mods",
   "LandingPage": {
     "title": "Make Hytale Mods"
+  },
+  "navbar": {
+    "home": "Home",
+    "tutorials": "Tutorials",
+    "contribute": "Contribute",
+    "about": "About"
   }
 }

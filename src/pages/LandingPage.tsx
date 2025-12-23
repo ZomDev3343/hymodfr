@@ -1,13 +1,12 @@
 import Background from "../components/common/Background.tsx";
-import {useTranslation} from "react-i18next";
+import ArticleContent from "../components/articles/ArticleContent.tsx";
+import {DOCS} from "../utils/Constants.ts";
 
 export default function LandingPage() {
 
-    const {t} = useTranslation();
-
     return (<Background>
         <div id={"landing-page"} className={"h-screen w-screen flex justify-center items-center"}>
-            <h1>{t('LandingPage.title')}</h1>
+            <ArticleContent docFile={DOCS.TEST}></ArticleContent>
         </div>
     </Background>);
 }
