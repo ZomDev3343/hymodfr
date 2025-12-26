@@ -1,11 +1,16 @@
-import {create} from "zustand/react";
-import {persist} from "zustand/middleware/persist";
+import { create } from "zustand/react";
+import { persist } from "zustand/middleware/persist";
 
 interface ISettingsState {
-    darkMode: boolean;
-};
+  darkMode: boolean;
+}
 
-export const useSettings = create(persist<ISettingsState>((set) => ({
-    darkMode: false,
-    setDarkMode: (value: boolean) => set({darkMode: value}),
-}), {name: 'settings-storage'}));
+export const useSettings = create(
+  persist<ISettingsState>(
+    (set) => ({
+      darkMode: false,
+      setDarkMode: (value: boolean) => set({ darkMode: value }),
+    }),
+    { name: "settings-storage" },
+  ),
+);
