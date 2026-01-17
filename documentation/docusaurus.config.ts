@@ -2,39 +2,28 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
-    title: 'Make Hytale Mods',
+    title: 'MakeHytaleMods',
     tagline: 'Learn how to make mods and server plugins for Hytale',
     favicon: 'img/hymodfr-logo.png',
 
-    // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
     future: {
-        v4: true, // Improve compatibility with the upcoming Docusaurus v4
+        v4: true,
     },
 
     customFields: {
         testVar: process.env.TEST_VAR || 'default value',
     },
 
-    // Set the production url of your site here
     url: 'https://zomdev3343.github.io/',
-    // Set the /<baseUrl>/ pathname under which your site is served
-    // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/hymodfr/',
-    organizationName: 'zomdev3343', // Usually your GitHub org/user name.
-    projectName: 'hymodfr', // Usually your repo name.
-    trailingSlash: false,
 
-    // GitHub pages deployment config.
-    // If you aren't using GitHub pages, you don't need these.
+    baseUrl: '/makehytalemods/',
+    organizationName: 'zomdev3343',
+    projectName: 'makehytalemods',
+    trailingSlash: false,
 
     onBrokenLinks: 'warn',
 
-    // Even if you don't use internationalization, you can use this field to set
-    // useful metadata like html lang. For example, if your site is Chinese, you
-    // may want to replace "en" with "zh-Hans".
     i18n: {
         defaultLocale: 'en',
         locales: ['en'],
@@ -66,21 +55,37 @@ const config: Config = {
             respectPrefersColorScheme: true,
         },
         navbar: {
-            title: 'My Site',
+            title: 'MakeHytaleMods',
             logo: {
-                alt: 'My Site Logo',
-                src: 'img/logo.svg',
+                alt: 'MHM Logo',
+                src: 'img/hymodfr-logo.png',
             },
             items: [
                 {
                     type: 'docSidebar',
-                    sidebarId: 'tutorialSidebar',
+                    sidebarId: 'serverAssetsSidebar',
                     position: 'left',
-                    label: 'Tutorial',
+                    label: 'Mods',
                 },
-                {to: '/blog', label: 'Blog', position: 'left'},
                 {
-                    href: 'https://github.com/facebook/docusaurus',
+                    type: 'docSidebar',
+                    sidebarId: 'serverPluginsSidebar',
+                    position: 'left',
+                    label: 'Server Plugins',
+                },
+                {
+                    type: 'docSidebar',
+                    sidebarId: 'javaDocsSidebar',
+                    position: 'left',
+                    label: 'Learn Java',
+                },
+                {
+                    href: 'https://discord.gg/ttRpQf8UaN',
+                    label: "Discord",
+                    position: 'right',
+                },
+                {
+                    href: 'https://github.com/zomdev3343/makehytalemods',
                     label: 'GitHub',
                     position: 'right',
                 },
@@ -93,7 +98,7 @@ const config: Config = {
                     title: 'Docs',
                     items: [
                         {
-                            label: 'Tutorial',
+                            label: 'Documentation',
                             to: '/docs/intro',
                         },
                     ],
@@ -102,16 +107,12 @@ const config: Config = {
                     title: 'Community',
                     items: [
                         {
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                        },
-                        {
                             label: 'Discord',
-                            href: 'https://discordapp.com/invite/docusaurus',
+                            href: 'https://discord.gg/ttRpQf8UaN',
                         },
                         {
                             label: 'X',
-                            href: 'https://x.com/docusaurus',
+                            href: 'https://x.com/zom___',
                         },
                     ],
                 },
@@ -119,17 +120,13 @@ const config: Config = {
                     title: 'More',
                     items: [
                         {
-                            label: 'Blog',
-                            to: '/blog',
-                        },
-                        {
                             label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus',
+                            href: 'https://github.com/zomdev3343/makehytalemods',
                         },
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} MakeHytaleMods. Built with Docusaurus.`,
         },
         prism: {
             theme: prismThemes.github,
