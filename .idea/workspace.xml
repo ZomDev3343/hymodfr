@@ -6,8 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="98c72fc1-05ac-4e65-a815-43d1752b4cbf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/.env" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/intro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/java-docs/intro.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/docs/java-docs/index.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/server-assets/intro.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/docs/server-assets/index.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/server-plugins/intro.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/docs/server-plugins/index.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/tutorial-basics/_category_.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/tutorial-basics/congratulations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/tutorial-basics/create-a-blog-post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/tutorial-basics/create-a-document.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/tutorial-basics/create-a-page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/tutorial-basics/deploy-your-site.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/tutorial-basics/markdown-features.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/tutorial-extras/_category_.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/tutorial-extras/img/docsVersionDropdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/tutorial-extras/img/localeDropdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/tutorial-extras/manage-docs-versions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/tutorial-extras/translate-your-site.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/documentation/docusaurus.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/docusaurus.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/documentation/sidebars.ts" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/sidebars.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/src/components/HomepageFeatures/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/src/components/HomepageFeatures/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/src/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/src/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/documentation/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +36,11 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/Gunpo/Documents/HytaleModding/makehytalemods" value="37GD9Zy0Tnq3vfIpuWiN0cQDqVR" />
+    </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
     <option name="cachedIndexableFilesCount" value="44" />
@@ -46,8 +70,24 @@
   }
 }</component>
   <component name="McpProjectServerCommands">
-    <commands />
-    <urls />
+    <McpServerCommand sourceId="UserConfigurationSource">
+      <option name="allowedToolsNames" />
+      <option name="enabled" value="true" />
+      <option name="name" value="" />
+      <option name="programPath" value="" />
+      <option name="arguments" value="" />
+      <option name="workingDirectory" value="" />
+      <envs />
+    </McpServerCommand>
+    <McpServerCommand sourceId="UserConfigurationSource">
+      <option name="allowedToolsNames" />
+      <option name="enabled" value="true" />
+      <option name="name" value="" />
+      <option name="programPath" value="" />
+      <option name="arguments" value="" />
+      <option name="workingDirectory" value="" />
+      <envs />
+    </McpServerCommand>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.5" />
   <component name="ProjectColorInfo">{
@@ -71,8 +111,9 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/thomasr/Documents/hymodfr/documentation/static/img",
+    "last_opened_file_path": "C:/Users/Gunpo/Documents/HytaleModding/makehytalemods/documentation/docs/server-assets/item",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,23 +122,28 @@
     "prettierjs.PrettierConfiguration.Package": "/Users/thomasr/Documents/hymodfr/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
     "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/thomasr/Documents/hymodfr/documentation/node_modules/typescript/lib",
+    "ts.external.directory.path": "C:\\Users\\Gunpo\\Documents\\HytaleModding\\makehytalemods\\documentation\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-assets\item\_wip" />
+      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-assets\item" />
+      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-assets\block" />
       <recent name="$PROJECT_DIR$/documentation/static/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-assets\block\_wip" />
+      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-assets\item\_wip" />
       <recent name="$PROJECT_DIR$/public/assets/images/wallpapers/carrousel/home" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PS-253.29346.151" />
-        <option value="bundled-php-predefined-a98d8de5180a-0e0d91225499-com.jetbrains.php.sharedIndexes-PS-253.29346.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-PS-252.28238.9" />
+        <option value="bundled-php-predefined-a98d8de5180a-58f58c5035b3-com.jetbrains.php.sharedIndexes-PS-252.28238.9" />
       </set>
     </attachedChunks>
   </component>
@@ -118,6 +164,7 @@
       <workItem from="1766998996651" duration="108000" />
       <workItem from="1767120816175" duration="620000" />
       <workItem from="1768595734323" duration="5495000" />
+      <workItem from="1768683505535" duration="3857000" />
     </task>
     <servers />
   </component>

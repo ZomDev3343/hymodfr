@@ -1,7 +1,9 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import {configDotenv} from "dotenv";
 
+configDotenv();
 const config: Config = {
     title: 'MakeHytaleMods',
     tagline: 'Learn how to make mods and server plugins for Hytale',
@@ -25,8 +27,8 @@ const config: Config = {
     onBrokenLinks: 'warn',
 
     i18n: {
-        defaultLocale: 'en',
-        locales: ['en'],
+        defaultLocale: 'fr',
+        locales: ['fr', 'en'],
     },
 
     presets: [
@@ -35,10 +37,6 @@ const config: Config = {
             {
                 docs: {
                     sidebarPath: './sidebars.ts',
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 blog: false,
                 theme: {
@@ -80,7 +78,7 @@ const config: Config = {
                     label: 'Learn Java',
                 },
                 {
-                    href: 'https://discord.gg/ttRpQf8UaN',
+                    href: 'https://discord.gg/hKMP6AuRp5',
                     label: "Discord",
                     position: 'right',
                 },
@@ -108,7 +106,7 @@ const config: Config = {
                     items: [
                         {
                             label: 'Discord',
-                            href: 'https://discord.gg/ttRpQf8UaN',
+                            href: 'https://discord.gg/hKMP6AuRp5',
                         },
                         {
                             label: 'X',
