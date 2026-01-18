@@ -28,7 +28,7 @@ const config: Config = {
 
     i18n: {
         defaultLocale: 'fr',
-        locales: ['fr', 'en'],
+        locales: ['fr'],
     },
 
     presets: [
@@ -93,15 +93,6 @@ const config: Config = {
             style: 'dark',
             links: [
                 {
-                    title: 'Docs',
-                    items: [
-                        {
-                            label: 'Documentation',
-                            to: '/docs/intro',
-                        },
-                    ],
-                },
-                {
                     title: 'Community',
                     items: [
                         {
@@ -115,7 +106,7 @@ const config: Config = {
                     ],
                 },
                 {
-                    title: 'More',
+                    title: 'Contribute',
                     items: [
                         {
                             label: 'GitHub',

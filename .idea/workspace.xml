@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="98c72fc1-05ac-4e65-a815-43d1752b4cbf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/docs/server-assets/npcs/familiar.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/docs/server-assets/npcs/companions/familiar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/docs/server-assets/npcs/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/docs/server-assets/npcs/mount.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/docs/server-assets/npcs/companions/mount.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/docs/server-assets/npcs/practice.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/docs/server-assets/npcs/companions/practice.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation/docs/server-assets/npcs/summons.md" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/docs/server-assets/npcs/companions/summons.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/.env" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docs/server-plugins/index.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/docusaurus.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/docusaurus.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/src/pages/markdown-page.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
     "git-widget-placeholder": "develop",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/Gunpo/Documents/HytaleModding/makehytalemods/documentation/docs/server-assets/npcs",
+    "last_opened_file_path": "C:/Users/Gunpo/Documents/HytaleModding/makehytalemods/documentation/docs/java-docs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -105,17 +104,17 @@
     "prettierjs.PrettierConfiguration.Package": "/Users/thomasr/Documents/hymodfr/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
     "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/Users/thomasr/Documents/hymodfr/documentation/node_modules/typescript/lib",
+    "ts.external.directory.path": "C:\\Users\\Gunpo\\Documents\\HytaleModding\\makehytalemods\\documentation\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-assets\npcs\companions" />
-      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-assets\npcs\mobs" />
-      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-assets\npcs" />
-      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-assets\item\_wip" />
-      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-assets\item" />
+      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\java-docs" />
+      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-plugins\minigames" />
+      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-plugins" />
+      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-assets\block\_wip" />
+      <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-assets\modeling" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Gunpo\Documents\HytaleModding\makehytalemods\documentation\docs\server-assets\npcs\mobs" />
